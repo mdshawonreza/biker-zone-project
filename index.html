@@ -247,24 +247,50 @@
             </div>
           </div>
       </section>
+      <!-- frequently ask section -->
       <section class="my-24">
+        <!-- frequently title -->
         <h3 class="text-5xl font-semi-bold text-center mb-12 ">
           Frequently Asked<span class="text-bike-primary">  Questions 
           </span>
         </h3>
+        <!-- frequently box container -->
         <div class="hero  bg-base-200">
-          <div class="hero-content flex-col lg:flex-row">
+          <div class="hero-content flex flex-col lg:flex-row">
             <img src="/images/others/faq.png" class="max-w-sm rounded-lg shadow-2xl" />
             <div>
-              <h1 class="text-5xl font-bold">Box Office News!</h1>
-              <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-              <button class="btn btn-primary">Get Started</button>
+              <div class="collapse bg-base-200">
+                <input type="radio" name="my-accordion-1" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                  <Translate text="Click to open this one and close others" />
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse bg-base-200">
+                <input type="radio" name="my-accordion-1" /> 
+                <div class="collapse-title text-xl font-medium">
+                  <Translate text="Click to open this one and close others" />
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse bg-base-200">
+                <input type="radio" name="my-accordion-1" /> 
+                <div class="collapse-title text-xl font-medium">
+                  <Translate text="Click to open this one and close others" />
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer>
       <footer class="footer p-10 bg-neutral text-neutral-content">
         <div>
           <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
@@ -277,6 +303,5 @@
           </div>
         </div>
       </footer>
-    </footer>
 </body>
 </html>  
